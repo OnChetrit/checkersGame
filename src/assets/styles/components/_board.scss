@@ -1,0 +1,45 @@
+.board {
+  flex-wrap: wrap;
+  max-height: 500px;
+  max-width: 500px;
+  border: 2px solid rgb(255, 255, 255);
+  outline: 5px solid $dark-board;
+  margin-bottom: 20px;
+  // @mixin for-mobile-layout {
+  //   @media (max-height: $mobile-breakpoint) {
+
+  //   }
+  // }
+
+  .square {
+    background: $bright-board;
+    flex-basis: 12.5%;
+    padding: 12px;
+    aspect-ratio: 1 / 1;
+
+    &.odd {
+      background: $dark-board;
+    }
+
+    &.selected {
+      outline: 3px solid rgb(126, 192, 113);
+      z-index: 5;
+    }
+
+    .pawn {
+      line-height: 0;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      outline: 4px solid $bright-board;
+
+      &.w-pawn {
+        background: $white-piece;
+      }
+
+      &.b-pawn {
+        background: $black-piece;
+      }
+    }
+  }
+}

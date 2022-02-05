@@ -1,0 +1,19 @@
+// Setup
+@import 'setup/typography.scss';
+@import 'setup/variables.scss';
+@import 'setup/functions.scss';
+@import 'setup/mixins.scss';
+
+// Basics
+@import 'basics/helpers.scss';
+@import 'basics/layout.scss';
+@import 'basics/base.scss';
+@import 'basics/buttons.scss';
+
+// Views
+@import 'views/main.scss';
+
+// Components
+@import 'components/board.scss';
+@import 'components/info.scss';
+@import 'components/actions.scss';

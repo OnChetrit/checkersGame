@@ -1,0 +1,21 @@
+.info {
+  margin-bottom: 20px;
+  width: 100%;
+
+  img {
+    height: 100px;
+    flex: 0;
+  }
+
+  .turn {
+    flex: 1;
+    color: $white-piece;
+    font-size: clamp(rem(28px), 10vw, rem(48px));
+    font-family: $font-b;
+    -webkit-text-stroke: 1px $black-piece;
+    &.black {
+      -webkit-text-stroke: 1px $white-piece;
+      color: $black-piece;
+    }
+  }
+}

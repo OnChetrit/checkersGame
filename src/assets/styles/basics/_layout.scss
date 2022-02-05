@@ -1,0 +1,10 @@
+.main-container {
+  margin: 0 auto;
+  width: 100%;
+
+  @include for-normal-layout {
+    @media (min-width: $wide-breakpoint) {
+      max-width: 1500px;
+    }
+  }
+}

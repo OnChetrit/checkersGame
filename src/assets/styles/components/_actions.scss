@@ -1,0 +1,8 @@
+.actions {
+  button {
+    color: $white-piece;
+    font-size: clamp(rem(24px), 10vw, rem(48px));
+    font-family: $font-b;
+    -webkit-text-stroke: 1px $black-piece;
+  }
+}

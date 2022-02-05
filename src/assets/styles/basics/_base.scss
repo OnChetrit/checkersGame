@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-r;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1;
+  text-align: center;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: inherit;
+  font-family: $font-r;
+  cursor: pointer;
+  padding: 0;
+}
+
+textarea,
+input {
+  background: inherit;
+  outline: none;
+  border: none;
+  resize: none;
+  max-height: 80px;
+  font-family: $font-r;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
