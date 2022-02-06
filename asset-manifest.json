@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/checkersGame/static/css/main.40818204.css",
+    "main.js": "/checkersGame/static/js/main.b220d7e7.js",
+    "static/media/wood-background.png": "/checkersGame/static/media/wood-background.c06a0d8ccd95d4a8ceb1.png",
+    "static/media/SourceSansPro-Regular.ttf": "/checkersGame/static/media/SourceSansPro-Regular.ed3e1a0f0cbd41e2d920.ttf",
+    "static/media/SourceSansPro-SemiBold.ttf": "/checkersGame/static/media/SourceSansPro-SemiBold.623603c20b9700d7381a.ttf",
+    "static/media/SourceSansPro-Bold.ttf": "/checkersGame/static/media/SourceSansPro-Bold.18576555c63acf01da1e.ttf",
+    "static/media/Roboto-Thin.ttf": "/checkersGame/static/media/Roboto-Thin.1711b41f3ae4cb322eea.ttf",
+    "static/media/Roboto-Regular.ttf": "/checkersGame/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/Roboto-Bold.ttf": "/checkersGame/static/media/Roboto-Bold.75371f53f06181df75f1.ttf",
+    "static/media/checkers.svg": "/checkersGame/static/media/checkers.8eab03cca09ad5d9804a34053baf48fa.svg",
+    "index.html": "/checkersGame/index.html",
+    "main.40818204.css.map": "/checkersGame/static/css/main.40818204.css.map",
+    "main.b220d7e7.js.map": "/checkersGame/static/js/main.b220d7e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40818204.css",
+    "static/js/main.b220d7e7.js"
+  ]
+}
